@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Conecta | Relaciones que Construyen Confianza</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, h4, h5, h6 { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-blue-600 selection:text-white">
+
+    <!-- TOP BAR -->
+    <div class="bg-slate-900 text-slate-300 text-xs py-2 px-4">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-4">
+                <span class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span> Programa Nacional BMI Conecta 2026-2027</span>
+                <span class="hidden md:inline text-slate-500">|</span>
+                <span class="hidden md:inline">Alianzas Institucionales, Gremiales y Empresariales</span>
+            </div>
+            <div class="font-medium text-amber-400">Presentado por BSM Agency &amp; BMI Seguros Colombia</div>
+        </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-slate-200 shadow-xs">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-900 to-blue-700 flex items-center text-white font-bold text-xl shadow-md tracking-tight justify-center">
+                    BMI
+                </div>
+                <div>
+                    <span class="text-xl font-extrabold text-slate-900 tracking-tight block leading-tight">BMI CONECTA</span>
+                    <span class="text-xs font-semibold text-blue-600 tracking-wider uppercase">Relaciones que Construyen Confianza</span>
+                </div>
+            </div>
+            
+            <nav class="hidden lg:flex items-center gap-8 text-sm font-medium text-slate-600">
+                <a href="#segmentos" class="hover:text-blue-600 transition">Segmentos</a>
+                <a href="#eventos" class="hover:text-blue-600 transition">Eventos &amp; Costos</a>
+                <a href="#digital" class="hover:text-blue-600 transition">Podcast &amp; LinkedIn</a>
+                <a href="#fase1" class="hover:text-blue-600 transition">Fase 1 (90 Días)</a>
+                <a href="#simulador" class="hover:text-blue-600 transition">Simulador</a>
+            </nav>
+
+            <div class="flex items-center gap-3">
+                <a href="#contacto" class="hidden sm:inline-flex items-center justify-center px-5 py-2.5 rounded-xl text-sm font-semibold text-white bg-blue-700 hover:bg-blue-800 shadow-sm transition">
+                    Agendar Reunión / Comité
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="relative overflow-hidden bg-gradient-to-br from-slate-900 via-blue-950 to-blue-900 text-white py-24 lg:py-32">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#3b82f6_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="max-w-3xl">
+                <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-500/20 text-blue-300 text-xs font-semibold uppercase tracking-wider mb-6 border border-blue-400/30">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                    Plan Nacional de Desarrollo Comercial y Relaciones Públicas
+                </div>
+                <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white mb-6 leading-tight">
+                    Conectando a BMI con los <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-amber-300">Tomadores de Decisión</span> de Colombia
+                </h1>
+                <p class="text-lg sm:text-xl text-slate-300 mb-10 leading-relaxed font-light">
+                    Un programa nacional de relacionamiento institucional, empresarial, gremial y de nuevos mercados diseñado para transformar encuentros de alto nivel en oportunidades comerciales medibles y producción sostenible de primas.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#segmentos" class="inline-flex items-center justify-center px-8 py-4 rounded-xl text-base font-semibold text-slate-900 bg-amber-400 hover:bg-amber-300 shadow-lg transition">
+                        Explorar Mercados Objetivo
+                    </a>
+                    <a href="#simulador" class="inline-flex items-center justify-center px-8 py-4 rounded-xl text-base font-semibold text-white bg-white/10 hover:bg-white/20 border border-white/20 transition">
+                        Ver Simulador Financiero
+                    </a>
+                </div>
+            </div>
+
+            <!-- KEY STATS -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 pt-12 border-t border-blue-800/60">
+                <div class="bg-blue-900/40 backdrop-blur border border-blue-700/50 p-6 rounded-2xl">
+                    <div class="text-3xl font-extrabold text-amber-300 mb-1">6 Segmentos</div>
+                    <div class="text-sm text-slate-300">Público, Gremios, Fondos &amp; Empresarial</div>
+                </div>
+                <div class="bg-blue-900/40 backdrop-blur border border-blue-700/50 p-6 rounded-2xl">
+                    <div class="text-3xl font-extrabold text-amber-300 mb-1">40.085</div>
+                    <div class="text-sm text-slate-300">Empresas (Importadores y Exportadores)</div>
+                </div>
+                <div class="bg-blue-900/40 backdrop-blur border border-blue-700/50 p-6 rounded-2xl">
+                    <div class="text-3xl font-extrabold text-amber-300 mb-1">26.735+</div>
+                    <div class="text-sm text-slate-300">Seguidores en LinkedIn (Jorge Rubio)</div>
+                </div>
+                <div class="bg-blue-900/40 backdrop-blur border border-blue-700/50 p-6 rounded-2xl">
+                    <div class="text-3xl font-extrabold text-amber-300 mb-1">12 Encuentros</div>
+                    <div class="text-sm text-slate-300">Ejecutivos Estratégicos Anuales</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MERCADOS OBJETIVO -->
+    <section id="segmentos" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-4">Mercados Objetivo y Universo de Oportunidades</h2>
+                <p class="text-lg text-slate-600">Estructura organizada en seis grandes frentes institucionales y comerciales para posicionar el portafolio de BMI.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-slate-50 border border-slate-200 p-8 rounded-2xl hover:shadow-xl transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center font-bold text-xl mb-6">🏛️</div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Sector Público e Institucional</h3>
+                        <p class="text-slate-600 text-sm mb-6">Congreso de la República (386 congresistas), Federación Colombiana de Municipios (1.103 alcaldías), FEDEDEPARTAMENTOS (32 gobernaciones), Concejo de Bogotá y Asamblea de Cundinamarca.</p>
+                    </div>
+                    <div class="border-t border-slate-200 pt-4 text-xs font-semibold text-blue-700 uppercase tracking-wider">
+                        Encuentros ejecutivos y mesas institucionales
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-slate-50 border border-slate-200 p-8 rounded-2xl hover:shadow-xl transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center font-bold text-xl mb-6">👥</div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Fondos de Empleados y Pensionados</h3>
+                        <p class="text-slate-600 text-sm mb-6">Fondos vinculados al Congreso, Policía Nacional, grandes empresas, entidades financieras, sector industrial y cooperativas de trabajadores en todo el país.</p>
+                    </div>
+                    <div class="border-t border-slate-200 pt-4 text-xs font-semibold text-amber-700 uppercase tracking-wider">
+                        Acceso directo a comunidades de afiliados
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-slate-50 border border-slate-200 p-8 rounded-2xl hover:shadow-xl transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold text-xl mb-6">🏭</div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Gremios Industriales</h3>
+                        <p class="text-slate-600 text-sm mb-6">CAMPETROL, COTELCO, ANATO, ANALDEX, ASOCEBÚ, FEDEQUINAS, ASOPARTES, ACICAM, FEDELONJAS, ACOPI y sectores energéticos, mineros, petroleros y de construcción.</p>
+                    </div>
+                    <div class="border-t border-slate-200 pt-4 text-xs font-semibold text-emerald-700 uppercase tracking-wider">
+                        Conferencias sectoriales y alianzas gremiales
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="bg-slate-50 border border-slate-200 p-8 rounded-2xl hover:shadow-xl transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-indigo-100 text-indigo-700 flex items-center justify-center font-bold text-xl mb-6">📦</div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Importadores y Exportadores</h3>
+                        <p class="text-slate-600 text-sm mb-6">Gestión por ciclos de un universo de 8.756 exportadores y 31.329 importadores (40.085 empresas en total), procesados en campañas progresivas y validadas.</p>
+                    </div>
+                    <div class="border-t border-slate-200 pt-4 text-xs font-semibold text-indigo-700 uppercase tracking-wider">
+                        14 ciclos de prospección B2B organizada
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="bg-slate-50 border border-slate-200 p-8 rounded-2xl hover:shadow-xl transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-purple-100 text-purple-700 flex items-center justify-center font-bold text-xl mb-6">🛍️</div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Comerciantes y Zonas Clave</h3>
+                        <p class="text-slate-600 text-sm mb-6">Encuentros especializados en San Victorino, San Andresito San José, sector de motocicletas, tecnología, Plaza España, Paloquemao y Ricaurte en Bogotá.</p>
+                    </div>
+                    <div class="border-t border-slate-200 pt-4 text-xs font-semibold text-purple-700 uppercase tracking-wider">
+                        Eventos presenciales por sector comercial
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="bg-slate-50 border border-slate-200 p-8 rounded-2xl hover:shadow-xl transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-rose-100 text-rose-700 flex items-center justify-center font-bold text-xl mb-6">🤝</div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Cámaras de Comercio</h3>
+                        <p class="text-slate-600 text-sm mb-6">Programa "Empresarios del Futuro" junto a la Cámara de Comercio de Bogotá y cámaras regionales para impartir conferencias de educación financiera e inteligencia artificial.</p>
+                    </div>
+                    <div class="border-t border-slate-200 pt-4 text-xs font-semibold text-rose-700 uppercase tracking-wider">
+                        Alianzas de formación y divulgación
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EVENTOS Y PRESUPUESTO -->
+    <section id="eventos" class="py-24 bg-slate-100 border-y border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-4">Presupuesto Operativo y Convocatoria por Evento</h2>
+                <p class="text-lg text-slate-600">Estimaciones financieras para encuentros ejecutivos de alto nivel en hoteles de Bogotá y desglose exacto de convocatoria institucional.</p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12 items-start">
+                <!-- Operative Cost Table -->
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-8">
+                    <h3 class="text-xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                        <span class="w-3 h-3 rounded-full bg-blue-600"></span> Costos Operativos por Evento (COP)
+                    </h3>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left text-sm">
+                            <thead>
+                                <tr class="border-b border-slate-200 text-slate-500 font-semibold">
+                                    <th class="py-3">Concepto</th>
+                                    <th class="py-3 text-right">Escenario Bajo</th>
+                                    <th class="py-3 text-right">Escenario Alto</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-100 text-slate-700">
+                                <tr>
+                                    <td class="py-3 font-medium">Hotel y Salón Ejecutivo</td>
+                                    <td class="py-3 text-right">$30.000.000</td>
+                                    <td class="py-3 text-right">$60.000.000</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 font-medium">Alimentación y Bebidas</td>
+                                    <td class="py-3 text-right">$15.000.000</td>
+                                    <td class="py-3 text-right">$15.000.000</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 font-medium">Producción Audiovisual</td>
+                                    <td class="py-3 text-right">$5.000.000</td>
+                                    <td class="py-3 text-right">$10.000.000</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 font-medium">Personal Logístico &amp; Registro</td>
+                                    <td class="py-3 text-right">$1.600.000</td>
+                                    <td class="py-3 text-right">$1.600.000</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 font-medium">Materiales e Imprevistos</td>
+                                    <td class="py-3 text-right">$1.700.000</td>
+                                    <td class="py-3 text-right">$1.700.000</td>
+                                </tr>
+                                <tr class="font-bold bg-slate-50 text-slate-900">
+                                    <td class="py-3">TOTAL OPERATIVO</td>
+                                    <td class="py-3 text-right">$53.300.000</td>
+                                    <td class="py-3 text-right">$88.300.000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="text-xs text-slate-500 mt-4">* No incluye escenografía, branding ni honorarios de BSM Agency.</p>
+                </div>
+
+                <!-- Excel Convocatoria Breakdown -->
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-8">
+                    <h3 class="text-xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                        <span class="w-3 h-3 rounded-full bg-amber-500"></span> Convocatoria &amp; Logística (Datos Excel)
+                    </h3>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left text-sm">
+                            <thead>
+                                <tr class="border-b border-slate-200 text-slate-500 font-semibold">
+                                    <th class="py-3">Grupo / Concepto</th>
+                                    <th class="py-3 text-center">Cant.</th>
+                                    <th class="py-3 text-right">Unitario</th>
+                                    <th class="py-3 text-right">Total (COP)</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-100 text-slate-700">
+                                <tr>
+                                    <td class="py-3 font-medium">Congresistas (Impresión)</td>
+                                    <td class="py-3 text-center">283</td>
+                                    <td class="py-3 text-right">$3.500</td>
+                                    <td class="py-3 text-right">$990.500</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 font-medium">Asambleístas Cundinamarca</td>
+                                    <td class="py-3 text-center">16</td>
+                                    <td class="py-3 text-right">$3.500</td>
+                                    <td class="py-3 text-right">$56.000</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 font-medium">Concejales de Bogotá</td>
+                                    <td class="py-3 text-center">46</td>
+                                    <td class="py-3 text-right">$3.500</td>
+                                    <td class="py-3 text-right">$161.000</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 font-medium">Gremios Industriales</td>
+                                    <td class="py-3 text-center">60</td>
+                                    <td class="py-3 text-right">$3.500</td>
+                                    <td class="py-3 text-right">$210.000</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 font-medium">Transporte Institucional (3 rutas)</td>
+                                    <td class="py-3 text-center">3</td>
+                                    <td class="py-3 text-right">$7.000</td>
+                                    <td class="py-3 text-right">$21.000</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 font-medium">Envío Correo Certificado (Gremios)</td>
+                                    <td class="py-3 text-center">60</td>
+                                    <td class="py-3 text-right">$11.000</td>
+                                    <td class="py-3 text-right">$660.000</td>
+                                </tr>
+                                <tr class="bg-slate-50 font-semibold">
+                                    <td class="py-3">Subtotal Costos Directos</td>
+                                    <td class="py-3 text-center">405</td>
+                                    <td class="py-3 text-right">—</td>
+                                    <td class="py-3 text-right">$2.098.500</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3 font-medium">Imprevistos / Contingencia (10%)</td>
+                                    <td class="py-3 text-center">10%</td>
+                                    <td class="py-3 text-right">—</td>
+                                    <td class="py-3 text-right">$209.850</td>
+                                </tr>
+                                <tr class="font-bold bg-blue-50 text-blue-900 text-base">
+                                    <td class="py-3">TOTAL CONVOCATORIA</td>
+                                    <td class="py-3 text-center">—</td>
+                                    <td class="py-3 text-right">—</td>
+                                    <td class="py-3 text-right">$2.308.350</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DIGITAL & PODCAST -->
+    <section id="digital" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-4">Ecosistema Digital: LinkedIn &amp; Podcast</h2>
+                <p class="text-lg text-slate-600">Estrategia de contenidos para posicionar a BMI a través de educación financiera, inteligencia artificial y liderazgo de opinión B2B.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- LinkedIn Strategy -->
+                <div class="bg-gradient-to-br from-blue-900 to-slate-900 text-white p-8 rounded-2xl flex flex-col justify-between shadow-lg">
+                    <div>
+                        <div class="flex items-center justify-between mb-6">
+                            <span class="px-3 py-1 bg-blue-500/30 text-blue-300 text-xs font-semibold rounded-full uppercase tracking-wider">Liderazgo B2B</span>
+                            <span class="text-2xl font-bold text-amber-300">26.735+ Seguidores</span>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4">Perfil de LinkedIn de Jorge Rubio</h3>
+                        <p class="text-slate-300 text-sm mb-6 leading-relaxed">
+                            Aprovechamiento de la comunidad activa para difundir contenidos bajo 4 pilares editoriales: Educación Financiera, Inteligencia Artificial aplicada a negocios, Protección Familiar/Empresarial y Relaciones Gremiales.
+                        </p>
+                        <ul class="space-y-2 text-sm text-slate-200 mb-8">
+                            <li class="flex items-center gap-2">✓ 2 publicaciones educativas semanales</li>
+                            <li class="flex items-center gap-2">✓ 1 entrevista o historia semanal</li>
+                            <li class="flex items-center gap-2">✓ Artículos especializados y LinkedIn Live mensual</li>
+                        </ul>
+                    </div>
+                    <div class="pt-4 border-t border-blue-800 text-xs text-blue-300 font-medium">
+                        Canal clave para generar prospectos, invitaciones a conferencias y reuniones B2B.
+                    </div>
+                </div>
+
+                <!-- Podcast Strategy -->
+                <div class="bg-gradient-to-br from-slate-900 to-blue-950 text-white p-8 rounded-2xl flex flex-col justify-between shadow-lg">
+                    <div>
+                        <div class="flex items-center justify-between mb-6">
+                            <span class="px-3 py-1 bg-amber-500/30 text-amber-300 text-xs font-semibold rounded-full uppercase tracking-wider">Multimedia Nacional</span>
+                            <span class="text-2xl font-bold text-amber-300">25–40 Min / Ep.</span>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4">Podcast: "Decisiones que Construyen Futuro"</h3>
+                        <p class="text-slate-300 text-sm mb-6 leading-relaxed">
+                            Espacio de conversación que combina educación financiera, protección patrimonial e inteligencia artificial. Con entrevistas a empresarios, presidentes de gremios y directivos de fondos.
+                        </p>
+                        <ul class="space-y-2 text-sm text-slate-200 mb-8">
+                            <li class="flex items-center gap-2">✓ Distribución en YouTube y plataformas de audio</li>
+                            <li class="flex items-center gap-2">✓ Producción de 3 a 5 clips cortos por episodio para redes</li>
+                            <li class="flex items-center gap-2">✓ Integración directa con las conferencias en Cámaras de Comercio</li>
+                        </ul>
+                    </div>
+                    <div class="pt-4 border-t border-slate-800 text-xs text-amber-300 font-medium">
+                        Activo permanente de marca y generación de confianza institucional.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FASE 1 & GOVERNANCE -->
+    <section id="fase1" class="py-24 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-4">Recomendación de Aprobación: Fase 1 (Primeros 90 Días)</h2>
+                <p class="text-lg text-slate-600">Componentes clave para la puesta en marcha inmediata del programa BMI Conecta bajo estricto control de resultados.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-xs flex gap-4 items-start">
+                    <div class="w-8 h-8 rounded-lg bg-blue-100 text-blue-700 flex items-center justify-center font-bold text-sm shrink-0">1</div>
+                    <p class="text-sm text-slate-700 font-medium">Aprobación oficial del programa nacional BMI Conecta por la dirección de BMI.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-xs flex gap-4 items-start">
+                    <div class="w-8 h-8 rounded-lg bg-blue-100 text-blue-700 flex items-center justify-center font-bold text-sm shrink-0">2</div>
+                    <p class="text-sm text-slate-700 font-medium">Designación de un responsable directivo y comercial interno de BMI.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-xs flex gap-4 items-start">
+                    <div class="w-8 h-8 rounded-lg bg-blue-100 text-blue-700 flex items-center justify-center font-bold text-sm shrink-0">3</div>
+                    <p class="text-sm text-slate-700 font-medium">Aprobación del presupuesto operativo para el gran lanzamiento en Bogotá.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-xs flex gap-4 items-start">
+                    <div class="w-8 h-8 rounded-lg bg-blue-100 text-blue-700 flex items-center justify-center font-bold text-sm shrink-0">4</div>
+                    <p class="text-sm text-slate-700 font-medium">Inicio de gestión institucional con Congreso, Asamblea, Concejo y gremios.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-xs flex gap-4 items-start">
+                    <div class="w-8 h-8 rounded-lg bg-blue-100 text-blue-700 flex items-center justify-center font-bold text-sm shrink-0">5</div>
+                    <p class="text-sm text-slate-700 font-medium">Acercamiento formal a fondos de empleados y pensionados prioritarios.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-xs flex gap-4 items-start">
+                    <div class="w-8 h-8 rounded-lg bg-blue-100 text-blue-700 flex items-center justify-center font-bold text-sm shrink-0">6</div>
+                    <p class="text-sm text-slate-700 font-medium">Inicio de conversaciones y alianzas con la Cámara de Comercio de Bogotá.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-xs flex gap-4 items-start">
+                    <div class="w-8 h-8 rounded-lg bg-blue-100 text-blue-700 flex items-center justify-center font-bold text-sm shrink-0">7</div>
+                    <p class="text-sm text-slate-700 font-medium">Lanzamiento oficial del podcast de Educación Financiera e IA.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-xs flex gap-4 items-start">
+                    <div class="w-8 h-8 rounded-lg bg-blue-100 text-blue-700 flex items-center justify-center font-bold text-sm shrink-0">8</div>
+                    <p class="text-sm text-slate-700 font-medium">Activación de la estrategia editorial en el perfil de LinkedIn.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-xs flex gap-4 items-start">
+                    <div class="w-8 h-8 rounded-lg bg-blue-100 text-blue-700 flex items-center justify-center font-bold text-sm shrink-0">9</div>
+                    <p class="text-sm text-slate-700 font-medium">Implementación de un CRM dedicado para seguimiento de prospectos.</p>
+                </div>
+            </div>
+
+            <div class="bg-blue-900 text-white p-8 rounded-2xl flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl">
+                <div>
+                    <h3 class="text-xl font-bold mb-2">Evaluación de Resultados a los 90 Días</h3>
+                    <p class="text-blue-200 text-sm">La continuidad y ampliación presupuestal dependen de los resultados comprobados de convocatoria, reuniones, propuestas y margen de contribución.</p>
+                </div>
+                <div class="shrink-0">
+                    <span class="px-6 py-3 bg-amber-400 text-slate-900 font-bold rounded-xl text-sm shadow-md inline-block">Meta: Red Permanente de Negocios</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SIMULADOR COMERCIAL INTERACTIVO -->
+    <section id="simulador" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-4">Simulador de Producción de Primas</h2>
+                <p class="text-lg text-slate-600">Calcula el potencial de producción anual estimado según el número de asegurados efectivos y la prima promedio.</p>
+            </div>
+
+            <div class="max-w-4xl mx-auto bg-slate-50 border border-slate-200 p-8 sm:p-12 rounded-3xl shadow-sm">
+                <div class="grid md:grid-cols-2 gap-8 mb-8">
+                    <div>
+                        <label class="block text-sm font-semibold text-slate-700 mb-2">Número de Asegurados Efectivos (Metas)</label>
+                        <input type="range" id="asegurados" min="50" max="2000" step="50" value="500" class="w-full accent-blue-600 cursor-pointer" oninput="calcularProduccion()">
+                        <div class="flex justify-between text-xs text-slate-500 mt-1">
+                            <span>50</span>
+                            <span id="valAsegurados" class="font-bold text-blue-700 text-base">500 asegurados</span>
+                            <span>2.000</span>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold text-slate-700 mb-2">Prima Anual Promedio por Asegurado (COP)</label>
+                        <select id="prima" class="w-full bg-white border border-slate-300 rounded-xl px-4 py-3 text-slate-800 font-semibold focus:ring-2 focus:ring-blue-500 focus:outline-hidden" onchange="calcularProduccion()">
+                            <option value="3000000">$ 3.000.000 COP</option>
+                            <option value="6000000" selected>$ 6.000.000 COP (Base)</option>
+                            <option value="10000000">$ 10.000.000 COP</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="bg-blue-950 text-white p-8 rounded-2xl text-center shadow-inner">
+                    <div class="text-xs uppercase tracking-widest text-blue-300 font-semibold mb-2">Producción Anual Estimada en Primas</div>
+                    <div id="resultadoPrimas" class="text-4xl sm:text-5xl font-extrabold text-amber-300 mb-3">$ 3.000.000.000 COP</div>
+                    <p class="text-xs text-slate-300 max-w-xl mx-auto">Esta simulación es un ejercicio de planeación comercial y no representa utilidad neta ni ingresos garantizados para BMI.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO / FORMULARIO -->
+    <section id="contacto" class="py-24 bg-slate-900 text-white relative overflow-hidden">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <h2 class="text-3xl sm:text-4xl font-extrabold mb-4">Inicie el Comité de Validación BMI Conecta</h2>
+            <p class="text-slate-300 mb-10 max-w-2xl mx-auto">Complete sus datos para agendar la presentación ejecutiva del programa o solicitar el informe detallado en PDF.</p>
+            
+            <form onsubmit="event.preventDefault(); alert('¡Solicitud enviada con éxito! El equipo de BSM Agency se pondrá en contacto para agendar el comité con BMI Seguros.');" class="bg-slate-800/80 border border-slate-700 p-8 rounded-3xl grid sm:grid-cols-2 gap-6 text-left">
+                <div>
+                    <label class="block text-xs font-semibold uppercase text-slate-400 mb-2">Nombre y Apellido</label>
+                    <input type="text" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-hidden focus:border-blue-500" placeholder="Ej. Directivo BMI">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold uppercase text-slate-400 mb-2">Correo Corporativo</label>
+                    <input type="email" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-hidden focus:border-blue-500" placeholder="nombre@bmiseguros.com">
+                </div>
+                <div class="sm:col-span-2">
+                    <label class="block text-xs font-semibold uppercase text-slate-400 mb-2">Cargo / Organización</label>
+                    <input type="text" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-hidden focus:border-blue-500" placeholder="Dirección Comercial / Gerencia General">
+                </div>
+                <div class="sm:col-span-2 flex items-center gap-3">
+                    <input type="checkbox" required id="habeas" class="w-4 h-4 rounded text-blue-600 focus:ring-blue-500 bg-slate-900 border-slate-700">
+                    <label for="habeas" class="text-xs text-slate-400">Autorizo el tratamiento de mis datos de acuerdo con las políticas de privacidad y normativas aplicables.</label>
+                </div>
+                <div class="sm:col-span-2">
+                    <button type="submit" class="w-full py-4 rounded-xl font-bold text-slate-900 bg-amber-400 hover:bg-amber-300 transition shadow-lg">
+                        Enviar Solicitud de Comité y Propuesta
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-950 text-slate-400 py-12 border-t border-slate-800 text-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-6">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded-lg bg-blue-900 flex items-center text-white font-bold text-sm justify-center">
+                    BMI
+                </div>
+                <span class="font-bold text-white">BMI CONECTA &copy; 2026–2027</span>
+            </div>
+            <div>
+                Desarrollado estratégicamente por <span class="text-white font-semibold">BSM Agency</span> para BMI Seguros Colombia.
+            </div>
+            <div class="text-xs text-slate-500">
+                Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function calcularProduccion() {
+            const aseg = parseInt(document.getElementById('asegurados').value);
+            const prima = parseInt(document.getElementById('prima').value);
+            document.getElementById('valAsegurados').innerText = aseg.toLocaleString() + ' asegurados';
+            const total = aseg * prima;
+            document.getElementById('resultadoPrimas').innerText = '$ ' + total.toLocaleString('es-CO') + ' COP';
+        }
+    </script>
+</body>
+</html>
